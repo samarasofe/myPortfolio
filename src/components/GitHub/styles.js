@@ -65,7 +65,7 @@ export const ListProject = styled.div`
     width: 100%;
     div{ 
         width: 100%;
-        border-radius: 10px;
+        border-radius: 10px;        
         background-color: rgba(238,238,238,0.9);
         padding: 0.5rem 1rem;
         margin-bottom: 10px;

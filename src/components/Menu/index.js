@@ -8,7 +8,7 @@ export default function Menu() {
             <ul>
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
-                <li><a>Portfolio</a></li>
+                <li><a>GitHub</a></li>
                 <li><a>Contato</a></li>
             </ul>
         </ContainerMenu>

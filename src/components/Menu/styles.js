@@ -1,6 +1,15 @@
 import styled from "styled-components";
 
 export const ContainerMenu = styled.nav`
+    display: flex;
+    list-style: none;
+    flex-flow: row nowrap;
+
+    @media (max-width: 540px) {
+        flex-flow: column nowrap;
+        background-color: #7D8792;
+    }
+
     ul {
         padding: 0;
         margin: 0;
