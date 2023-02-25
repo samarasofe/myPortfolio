@@ -3,8 +3,7 @@ import styled from "styled-components"
 export const HeaderContainer = styled.header`
     height: 90px;
     background-color: #2B2C2C;
-    color: #0000
-    ;
+    color: #0000;
     box-shadow: 0 0 20px 3px;
     display: flex;
     align-items: center;

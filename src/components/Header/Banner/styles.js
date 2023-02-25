@@ -23,7 +23,7 @@ export const BannerContainer = styled.div`
     }
 
     div{
-        z-index: 10;
+        z-index: 5;
     }
 
     h2{
