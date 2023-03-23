@@ -10,7 +10,7 @@ export default function About() {
                 <ContentAbout>
                 
                 <ImgProfile>                
-                <img src={Profile} alt='Foto perfil'></img>
+                <img src={Profile} alt='Foto perfil' ></img>
                 </ImgProfile>
                 <TextAbout>
                 <h2>About Me</h2>

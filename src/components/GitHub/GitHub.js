@@ -2,8 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { GithubContainer, ContentGitHub, Itens, Foto, ListProject, ButtonDefault } from './styles';
 
-// import { Container } from './styles';
-
 export default function GitHub() {
 
     const [userGit, setUserGit] = useState([])

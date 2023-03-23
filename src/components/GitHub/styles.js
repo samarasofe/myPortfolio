@@ -4,7 +4,7 @@ import bgGithub from '../../assets/img/imgGithub.png'
 export const GithubContainer = styled.div`
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin: 7rem auto;
     margin-bottom: 7rem;
     padding: 20px 15px;
     display: flex;

@@ -27,10 +27,10 @@ export const ContentTitle = styled.div`
 
 export const Title = styled.div`
     font-size: 25px;
-    color: #7D8792
-`
-export const SubTitle = styled.div`
-    color: #7D8792
+    color: #7D8792;
+`;
 
-`
+export const SubTitle = styled.div`
+    color: #7D8792;
+`;
 
