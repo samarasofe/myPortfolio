@@ -17,7 +17,7 @@ import wordpress from "../../assets/icons-skills/wordpress.png"
 export default function Skills() {
     return(
     <SkillsContainer>
-        <h1>Skills</h1>
+        <h1 id="skills-id">Skills</h1>
         <ContentSkills> 
             <div>
                 <img src={html5} alt="HTML"></img>

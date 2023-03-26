@@ -45,7 +45,7 @@ export default function GitHub() {
     return (
         <GithubContainer>
             <ContentGitHub>
-                <h2>GitHub</h2>
+                <h2 id='github-id'>GitHub</h2>
                 <Itens >
                     <Foto>
                         <img src={userGit.avatar_url}alt='Foto GitHub' />

@@ -24,9 +24,9 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-            SAMARA FERREIRA
+                SAMARA FERREIRA
             </div>
-            <Burger />            
+            <Burger />
         </Nav>
 
     )

@@ -13,7 +13,7 @@ export default function About() {
                 <img src={Profile} alt='Foto perfil' ></img>
                 </ImgProfile>
                 <TextAbout>
-                <h2>About Me</h2>
+                <h2 id='about-id'>About Me</h2>
                 <p>"I'm a technology enthusiast and a good challenge inspires me!
                     My goal as a front-end developer is to ensure a more complete,
                     informative and pleasant experience in human-computer interactions.
