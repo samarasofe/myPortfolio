@@ -21,11 +21,13 @@ export const ContactContainer = styled.div`
 `;
 
 export const SocialMedia = styled.div`
-  color: white;
+
   margin: 20px;
   font-size: 70px;
+  color: white;
   cursor: pointer;
   gap: 5rem;
+
     
 
 `;
