@@ -10,7 +10,7 @@ export default function About() {
                 <ContentAbout>
                 
                 <ImgProfile>                
-                <img src={Profile} alt='Foto perfil' ></img>
+                <img src={Profile} alt='Samara Soares Ferreira sofe' ></img>
                 </ImgProfile>
                 <TextAbout>
                 <h2 id='about-id'>About Me</h2>
@@ -20,6 +20,7 @@ export default function About() {
                     I love traveling and getting to know new cultures. 
                     I like design, samba and magical realism books."
                 </p>
+                <a></a>
                 </TextAbout>
                 
                 </ContentAbout>

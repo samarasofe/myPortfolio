@@ -7,6 +7,7 @@ import Navbar from "./components/Nav/Navbar";
 import { GlobalStyle } from "./styles";
 import Projects from "./components/Panel/Projects.js";
 
+
 function App() {
   return (
     <>

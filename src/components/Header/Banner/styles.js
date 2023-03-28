@@ -45,7 +45,7 @@ export const BannerContainer = styled.div`
         color: #EEEEEE;
     }
 
-    button{
+    button {
         min-width: 150px;
         border: solid 1px #DFA70C;
         display: flex;
@@ -64,6 +64,15 @@ export const BannerContainer = styled.div`
         &:hover{
             color: #DFA70C;
             border: solid 1px #EEEEEE;
+            transition-duration: 1s;
+        }
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: #DFA70C;
             transition-duration: 1s;
         }
     }

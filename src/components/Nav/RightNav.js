@@ -8,9 +8,15 @@ const Ul = styled.ul`
     flex-flow: row nowrap;
     z-index: 10;
     cursor: pointer;
-
+      
     li {
         padding: 18px 10px;
+        font-size: smaller ;
+
+        &:hover{
+            color: #fff;
+            transition-duration: 1s;
+        }
     }
 
     @media (max-width:768px) {
@@ -32,7 +38,7 @@ const Ul = styled.ul`
     }
 `;
 
-const RightNav = ({ open }) => {  //add tag Link para scroll smoo
+const RightNav = ({ open }) => {  
     return (
         <Ul open={open}>
             <li>
