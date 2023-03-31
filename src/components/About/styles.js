@@ -4,12 +4,10 @@ export const AboutContainer = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 20px 15px;
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 2rem;
     background-color: #2B2C2C;  
-    display: inline-block;
     vertical-align: top;
 `;
 
@@ -22,13 +20,18 @@ export const ContentAbout = styled.div`
     }
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    @media (max-width: 600px){
+        flex-direction: column;
+        h2{ 
+            text-align: center;
+        }
+    }
 
 `;
 
 export const ImgProfile = styled.div`
     img{
-        max-width: 250px;
+        max-width: 180px;
         border: 5px solid #FFFFFF;
         margin: 30px;
         filter: grayscale(100%);

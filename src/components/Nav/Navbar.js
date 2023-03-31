@@ -14,7 +14,7 @@ const Nav = styled.nav`
     align-items: center;
     font-size: 25px;
     z-index: 2;
-    
+
 
     .logo{
         padding: 15px 0;

@@ -10,7 +10,6 @@ export const SkillsContainer = styled.div`
     background-color: #2B2C2C;
     border:solid 30px;
     border-color: #fff;
-    /* margin: 50px 0px; */
     padding: 5px 5px;
     h1 {
         text-align: center;
@@ -47,6 +46,8 @@ export const ContentSkills = styled.div`
 
     @media (max-width: 600px){
         text-align: center;
+        align-items: center;
+        justify-content: center;
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 0px;
 
